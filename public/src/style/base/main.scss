@@ -1,0 +1,38 @@
+$header-color: #20222B;
+$body-color: #333745;
+$button-color: #8357c5;
+$border-color: #693cad;
+$box-head-color: #3C4251;
+$box-body-color: #464B5E;
+$text-color: #A5AFD7;
+$box-border: #A5AFD7;
+$white-color: #FFF;
+
+
+*{
+    margin: 0;
+  //  padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: $body-color;
+}
+.container{
+    width: 40%;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width: 426px) {
+    .container{
+        width: 90%;
+    }
+}
+
+button{
+    cursor: pointer;
+}

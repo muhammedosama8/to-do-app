@@ -1,0 +1,17 @@
+.chooseOption{
+    button{
+        background-color: $button-color;
+        color: #FFF;
+        padding: 25px;
+        text-align: center;
+        width: 100%;
+        font-size: 32px;
+        margin: 2rem 0;
+        border: 0;
+        border-bottom: 6px solid $border-color;
+        text-transform: capitalize;
+        &:disabled{
+            opacity: .5;
+        }
+    }
+}
