@@ -8,7 +8,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "run": "live-server public/",
     "build": "webpack --watch",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
