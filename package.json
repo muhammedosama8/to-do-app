@@ -6,8 +6,8 @@
   "homepage": "http://muhammedosama8.github.io/to-do-app",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "live-server public/",
-    "build": "webpack --watch",
+    "build": "live-server public/",
+    "run": "webpack --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
@@ -23,7 +23,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-modal": "^3.14.4",
-    "react-redux": "^7.2.6",
     "webpack-cli": "^4.9.2"
   },
   "devDependencies": {

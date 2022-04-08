@@ -11,8 +11,7 @@ const Indecision = () => {
     const [options, setOptions] = useState(initialTasks)
     const [selectedOption, setselectedOption] = useState(undefined)
 
-  /*   
-   ----------- use local storage ---------
+  /*  ----------- use local storage ---------
 
   useEffect(() => {    -------- componentDidMount -------
         const optionsData = JSON.parse(localStorage.getItem('options'));

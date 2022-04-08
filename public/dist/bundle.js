@@ -11234,8 +11234,7 @@ var Indecision = function Indecision() {
       _useState4 = _slicedToArray(_useState3, 2),
       selectedOption = _useState4[0],
       setselectedOption = _useState4[1];
-  /*   
-   ----------- use local storage ---------
+  /*  ----------- use local storage ---------
     useEffect(() => {    -------- componentDidMount -------
         const optionsData = JSON.parse(localStorage.getItem('options'));
         setOptions(optionsData);
