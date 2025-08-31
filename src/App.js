@@ -53,7 +53,7 @@ function App() {
 	const editTask = () => {
 		console.log("Edit");
 	};
-	console.log(options);
+
 	return (
 		<>
 			<div style={{ paddingBottom: "3rem" }}>
